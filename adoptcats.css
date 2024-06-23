@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'font';
+    src: url(images/MikeaRoundedDemoRegular-3lzYG.otf);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    margin: -1px;
+    overflow-x: hidden;
+}
+
+.header{
+    padding-top: 30px;
+    justify-content: center;
+   
+}
+.home,.adopt,.foster,.donate,.aboutus,.contact{
+    margin-left: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    height: 15px;
+    text-align: center;
+    width: 75px;
+    padding: 10px;
+    border: rgb(171, 162, 132) 1px solid;
+    border-radius: 15px;
+    color: rgb(171, 162, 132);
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+.home:hover,.adopt:hover,.foster:hover,.donate:hover,.aboutus:hover,.contact:hover{
+    transform: scale(1.2);
+}
+.holder{
+    height: 600px;
+    background-image: url(images/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.introtext{
+    font-family: 'font';
+
+    color: rgb(81, 77, 63);
+    margin-left: 13%;
+    margin-top: -35%;
+    position: absolute;
+    /* padding-top: 30px; */
+    font-size: 30px;
+    text-align: center;
+}
+.intropic{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.types{
+    display: flex;
+    justify-content: center;
+}
+.typetexts{
+    font-family: 'font';
+    color:rgb(81, 77, 63) ;
+    margin-left: 31%;
+    width: 465px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.all,.dog,.cat{
+    margin: 30px;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 150px;
+    height: 150px;
+    background-color: rgb(81, 77, 63);
+    border-radius: 50%;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+.cat{
+    background-color: rgb(182, 175, 148);
+}
+.choosetext{
+    font-family: 'font';
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.all:hover,.dog:hover{
+    transform: scale(1.2);
+    background-color: rgb(182, 175, 148);
+    cursor: pointer;
+}
+.pettext{
+    padding: 30px;
+   
+    height: 250px;
+}
+.row1,.row2,.row3{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pet1text{
+    margin-top: -4px;
+
+    padding: 30px;
+    background-color: #f5f4ee;
+    color: rgb(121, 116, 96);
+}
+.pet2text{
+    margin-top: -4px;
+
+    padding: 30px;
+    background-color: #e0dbbf;
+    color: rgb(121, 116, 96);
+}
+.pet3text{
+    margin-top: -4px;
+
+    padding: 30px;
+    background-color: #e7dacc;
+    color: rgb(121, 116, 96);
+}
+.pet4text{
+    margin-top: -4px;
+
+    padding: 30px;
+    background-color: #dfe7cc;
+    color: rgb(121, 116, 96);
+}
+.load{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'font';
+    text-decoration: underline;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+.load:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+.second{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.howtoadopt,.adoptionreq,.adoptionfees{
+    background-color: #e0dbbf;
+    color:rgb(121, 116, 96) ;
+    padding: 30px;
+    width: 350px;
+    height: 300px;
+    text-align: justify;
+
+}
+.adoptionfeestitle,.adoptreqtitle,.titlehowto{
+    text-decoration: solid;
+    color: black;
+    font-family: 'font';
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 50px;
+    background-color: #f5f4ee;
+    height: 150px;
+align-content: center;
+padding-left: 28%;
+}
+.footer>img{
+
+    padding: 30px;
+}
+.pet1row1:hover,.pet1row2:hover,.pet1row3:hover{
+    transform: scale(1.1);
+}
+.pet2row1:hover,.pet2row2:hover,.pet2row3:hover{
+    transform: scale(1.1);
+}
+.pet3row1:hover,.pet3row2:hover,.pet3row3:hover{
+    transform: scale(1.1);
+}
+.pet4row1:hover,.pet4row2:hover,.pet4row3:hover{
+    transform: scale(1.1);
+}
+.pet1row1,.pet1row2,.pet1row3,.pet2row1,.pet2row2,.pet2row3,.pet3row1,.pet3row2,.pet3row3,.pet4row1,.pet4row2,.pet4row3{
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}

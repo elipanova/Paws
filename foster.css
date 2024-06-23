@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'font';
+    src: url(images/MikeaRoundedDemoRegular-3lzYG.otf);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    margin: -1px;
+    overflow-x: hidden;
+}
+
+.header{
+    padding-top: 30px;
+    justify-content: center;
+   
+}
+.home,.adopt,.foster,.donate,.aboutus,.contact{
+    margin-left: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    height: 15px;
+    text-align: center;
+    width: 75px;
+    padding: 10px;
+    border: rgb(171, 162, 132) 1px solid;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    border-radius: 15px;
+    color: rgb(171, 162, 132);
+}
+.home:hover,.adopt:hover,.foster:hover,.donate:hover,.aboutus:hover,.contact:hover{
+    transform: scale(1.2);
+}
+.holder{
+    height: 600px;
+    background-image: url(images/foster.jpg);
+    background-size: cover;
+}
+.introtext{
+    font-family: 'font';
+
+    color: rgb(81, 77, 63);
+    margin-left: 20%;
+    margin-top: -37%;
+    position: absolute;
+    /* padding-top: 30px; */
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+.introtofoster{
+    color: rgb(74, 70, 59) ;
+
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+}
+
+.introtofostertext{
+    padding-top: 60px;
+    padding-right: 100px;
+    width: 500px;
+
+}
+.itftitle{
+    padding-bottom: 20px;
+text-align: center;
+font-size: 30px;
+}
+.itftext{
+    text-align: justify;
+    font-size: 20px;
+}
+.fosterpicture{
+border-radius: 50%;
+}
+.whyfoster{
+    color: rgb(74, 70, 59) ;
+
+    justify-content: center;
+
+    display: flex;
+    margin-top: 70px;
+}
+.whyfostertext{
+    padding-top: 60px;
+
+    padding-left: 100px;
+    width: 500px;
+}
+.wfpic{
+    border-radius: 50%;
+}
+.whyfostertitle{
+    padding-bottom: 20px;
+text-align: center;
+font-size: 30px;
+}
+.wftext{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.howfosteringworks{
+    
+    height: 525px;
+    background-color: rgb(74, 70, 59);
+    color: beige;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hfwtitle{
+    margin-top: 10px;
+    font-family: 'font';
+    font-size: 30px;
+    text-align: center;
+}
+.hfwtexts{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+.apply{
+    margin-left: 35%;
+    text-align: center;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid beige;
+    border-radius: 15px;
+    background-color:rgb(74, 70, 59) ;
+    font-size: 20px;
+    color: beige;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+.apply:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fosterreq{
+    background-color: #f5f4ee;
+    margin-top: 70px;
+    display: flex;
+}
+.fosterreqtexts{
+    color: rgb(74, 70, 59) ;
+    padding: 30px;
+    text-align: center;
+}
+.reqtitle{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'font';
+}
+
+.reqtext{
+    text-align: justify;   
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #f5f4ee;
+    height: 150px;
+align-content: center;
+padding-left: 28%;
+}
+.footer>img{
+
+    padding: 30px;
+}

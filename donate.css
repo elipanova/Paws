@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'font';
+    src: url(images/MikeaRoundedDemoRegular-3lzYG.otf);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    margin: -1px;
+    overflow-x: hidden;
+}
+
+.header{
+    padding-top: 30px;
+    justify-content: center;
+   
+}
+.home,.adopt,.foster,.donate,.aboutus,.contact{
+    margin-left: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    height: 15px;
+    text-align: center;
+    width: 75px;
+    padding: 10px;
+    border: rgb(171, 162, 132) 1px solid;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    border-radius: 15px;
+    color: rgb(171, 162, 132);
+}
+.home:hover,.adopt:hover,.foster:hover,.donate:hover,.aboutus:hover,.contact:hover{
+    transform: scale(1.2);
+}
+.holder{
+    height: 600px;
+    background-image: url(images/donatebg.jpg);
+    background-size: cover;
+}
+.introtext{
+    font-family: 'font';
+
+    color: rgb(81, 77, 63);
+    margin-left: 11%;
+    margin-top: -17%;
+    position: absolute;
+    /* padding-top: 30px; */
+    font-size: 60px;
+    text-align: center;
+}
+
+.whydonate{
+    color: rgb(81, 77, 63);
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'font';
+}
+.whydonatetext{
+    color: rgb(81, 77, 63);
+
+    padding: 50px;
+    margin-top: 40px;
+    
+    font-size: 20px;
+    text-align: center;
+}
+.waystodonate{
+    color: rgb(81, 77, 63);
+
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'font';
+}
+.waystodonatetext{
+    color: rgb(81, 77, 63);
+
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.donatebutton{
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    color: rgb(81, 77, 63);
+
+    width: 100px;
+    font-size: 20px;
+    height: 30px;
+    border:2px solid  rgb(81, 77, 63);
+    
+    text-align: center;
+    margin-left: 45%;
+}
+.donatebutton:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hold{
+    margin-top: 70px;
+    display: flex;
+}
+.impact{
+    color: rgb(81, 77, 63);
+
+    background-color: #f5f4ee;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'font';
+}
+.impacttitle{
+    text-align: center;
+ font-size: 25px;
+ font-family: 'font';
+}
+
+
+
+
+.footer{
+    margin-top: 70px;
+    background-color: #f5f4ee;
+    height: 150px;
+align-content: center;
+padding-left: 28%;
+}
+.footer>img{
+
+    padding: 30px;
+}
